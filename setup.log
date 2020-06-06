@@ -1,0 +1,22 @@
+# SORMAS SERVER SETUP
+# Welcome to the SORMAS server setup routine. This script will guide you through the setup of your server.
+# If anything goes wrong, please consult the server setup guide or get in touch with the developers.
+--- Are you setting up a local system or a server?
+1) Local
+2) Server
+#? 1) Local
+2) Server
+#? --- Please confirm that all values are set properly:
+Press [Enter] to continue or [Ctrl+C] to cancel and adjust the values...System type: Local
+OS: Windows
+Custom Java JDK: 
+Payara: 5.192
+Temp directory: /c/opt/sormas/temp
+Directory for generated files: /c/opt/sormas/generated
+Directory for custom files: /c/opt/sormas/custom
+Payara home: /c/opt/payara5
+Domain directory: /c/opt/domains/sormas
+Base port: 6000
+Admin port: 6048
+---
+Press [Enter] to continue or [Ctrl+C] to cancel and adjust the values...

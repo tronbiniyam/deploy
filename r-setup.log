@@ -1,0 +1,57 @@
+# SORMAS R SETUP
+# Welcome to the SORMAS R setup and update routine. This script will guide you through the setup of R.
+--- Please confirm that all values are set properly:
+OS: Windows
+Temp directory: /c/opt/sormas/temp
+Domain directory: /c/opt/domains/sormas
+---
+Press [Enter] to continue or [Ctrl+C] to cancel and adjust the values...Press [Enter] to continue or [Ctrl+C] to cancel and adjust the values...Do you wish to install the current R for Windows (R-4.0.0)?
+1) Yes
+2) No
+#? 1) Yes
+2) No
+#? Downloading https://cran.r-project.org/bin/windows/base/R-4.0.0-win.exe
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 83.5M    0  400k    0     0   305k      0  0:04:39  0:00:01  0:04:38  305k  0 83.5M    0  400k    0     0   305k      0  0:04:39  0:00:01  0:04:38  305k  1 83.5M    1 1120k    0     0   483k      0  0:02:56  0:00:02  0:02:54  483k  1 83.5M    1 1120k    0     0   483k      0  0:02:56  0:00:02  0:02:54  483k  2 83.5M    2 2416k    0     0   744k      0  0:01:54  0:00:03  0:01:51  744k  2 83.5M    2 2416k    0     0   744k      0  0:01:54  0:00:03  0:01:51  744k  5 83.5M    5 4512k    0     0  1063k      0  0:01:20  0:00:04  0:01:16 1063k  5 83.5M    5 4512k    0     0  1063k      0  0:01:20  0:00:04  0:01:16 1063k  9 83.5M    9 7984k    0     0  1523k      0  0:00:56  0:00:05  0:00:51 1606k  9 83.5M    9 7984k    0     0  1523k      0  0:00:56  0:00:05  0:00:51 1606k 15 83.5M   15 12.9M    0     0  2116k      0  0:00:40  0:00:06  0:00:34 2596k 15 83.5M   15 12.9M    0     0  2116k      0  0:00:40  0:00:06  0:00:34 2596k 23 83.5M   23 19.3M    0     0  2735k      0  0:00:31  0:00:07  0:00:24 3792k 23 83.5M   23 19.3M    0     0  2735k      0  0:00:31  0:00:07  0:00:24 3792k 30 83.5M   30 25.7M    0     0  3197k      0  0:00:26  0:00:08  0:00:18 4788k 30 83.5M   30 25.7M    0     0  3197k      0  0:00:26  0:00:08  0:00:18 4788k 37 83.5M   37 31.6M    0     0  3504k      0  0:00:24  0:00:09  0:00:15 5574k 37 83.5M   37 31.6M    0     0  3504k      0  0:00:24  0:00:09  0:00:15 5574k 43 83.5M   43 36.7M    0     0  3668k      0  0:00:23  0:00:10  0:00:13 5918k 48 83.5M   48 40.4M    0     0  3680k      0  0:00:23  0:00:11  0:00:12 5632k 43 83.5M   43 36.7M    0     0  3668k      0  0:00:23  0:00:10  0:00:13 5918k 48 83.5M   48 40.4M    0     0  3680k      0  0:00:23  0:00:11  0:00:12 5632k 50 83.5M   50 42.5M    0     0  3261k      0  0:00:26  0:00:13  0:00:13 3886k 50 83.5M   50 42.5M    0     0  3261k      0  0:00:26  0:00:13  0:00:13 3886k 57 83.5M   57 47.6M    0     0  3425k      0  0:00:24  0:00:14  0:00:10 3738k 57 83.5M   57 47.6M    0     0  3425k      0  0:00:24  0:00:14  0:00:10 3738k 62 83.5M   62 52.2M    0     0  3509k      0  0:00:24  0:00:15  0:00:09 3519k 62 83.5M   62 52.2M    0     0  3509k      0  0:00:24  0:00:15  0:00:09 3519k 68 83.5M   68 56.8M    0     0  3586k      0  0:00:23  0:00:16  0:00:07 3445k 68 83.5M   68 56.8M    0     0  3586k      0  0:00:23  0:00:16  0:00:07 3445k 73 83.5M   73 61.5M    0     0  3654k      0  0:00:23  0:00:17  0:00:06 3605k 73 83.5M   73 61.5M    0     0  3654k      0  0:00:23  0:00:17  0:00:06 3605k 79 83.5M   79 66.3M    0     0  3726k      0  0:00:22  0:00:18  0:00:04 4994k 79 83.5M   79 66.3M    0     0  3726k      0  0:00:22  0:00:18  0:00:04 4994k 85 83.5M   85 71.1M    0     0  3786k      0  0:00:22  0:00:19  0:00:03 4816k 85 83.5M   85 71.1M    0     0  3786k      0  0:00:22  0:00:19  0:00:03 4816k 90 83.5M   90 75.7M    0     0  3833k      0  0:00:22  0:00:20  0:00:02 4821k 90 83.5M   90 75.7M    0     0  3833k      0  0:00:22  0:00:20  0:00:02 4821k 96 83.5M   96 80.4M    0     0  3876k      0  0:00:22  0:00:21  0:00:01 4816k 96 83.5M   96 80.4M    0     0  3876k      0  0:00:22  0:00:21  0:00:01 4816k100 83.5M  100 83.5M    0     0  3888k      0  0:00:21  0:00:21 --:--:-- 4740k100 83.5M  100 83.5M    0     0  3888k      0  0:00:21  0:00:21 --:--:-- 4740k
+
+Starting installation of R...
+Required R packages will be downloaded and installed. Admin rights will be requested. Press [Enter] to continue or [Ctrl+C] to cancel.Required R packages will be downloaded and installed. Admin rights will be requested. Press [Enter] to continue or [Ctrl+C] to cancel.--- Enter the install path of R on your system (default: "C:\Program Files\R\R-4.0.0":
+Please specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directoryPlease specify a valid directory# SORMAS R SETUP
+# Welcome to the SORMAS R setup and update routine. This script will guide you through the setup of R.
+Press [Enter] to continue or [Ctrl+C] to cancel and adjust the values...--- Please confirm that all values are set properly:
+OS: Windows
+Temp directory: /c/opt/sormas/temp
+Domain directory: /c/opt/domains/sormas
+---
+Press [Enter] to continue or [Ctrl+C] to cancel and adjust the values...1) Yes
+2) No
+#? Do you wish to install the current R for Windows (R-4.0.0)?
+1) Yes
+2) No
+#? Skipping download
+Required R packages will be downloaded and installed. Admin rights will be requested. Press [Enter] to continue or [Ctrl+C] to cancel.Required R packages will be downloaded and installed. Admin rights will be requested. Press [Enter] to continue or [Ctrl+C] to cancel.# SORMAS R SETUP
+# Welcome to the SORMAS R setup and update routine. This script will guide you through the setup of R.
+Press [Enter] to continue or [Ctrl+C] to cancel and adjust the values...--- Please confirm that all values are set properly:
+OS: Windows
+Temp directory: /c/opt/sormas/temp
+Domain directory: /c/opt/domains/sormas
+---
+Press [Enter] to continue or [Ctrl+C] to cancel and adjust the values...1) Yes
+2) No
+#? Do you wish to install the current R for Windows (R-4.0.0)?
+1) Yes
+2) No
+#? Skipping download
+Required R packages will be downloaded and installed. Admin rights will be requested. Press [Enter] to continue or [Ctrl+C] to cancel.Required R packages will be downloaded and installed. Admin rights will be requested. Press [Enter] to continue or [Ctrl+C] to cancel.--- Enter the install path of R on your system (default: "C:\Program Files\R\R-4.0.0":
+Starting package installation...
+If needed, rscript.executable in '/c/opt/domains/sormas/sormas.properties' will be modified. Press [Enter] to continue or [Ctrl+C] to cancel.If needed, rscript.executable in '/c/opt/domains/sormas/sormas.properties' will be modified. Press [Enter] to continue or [Ctrl+C] to cancel.sed: can't read /c/opt/domains/sormas/sormas.properties: No such file or directory
+sed: can't read /c/opt/domains/sormas/sormas.properties: No such file or directory
+grep: /c/opt/domains/sormas/sormas.properties: No such file or directory
+grep: /c/opt/domains/sormas/sormas.properties: No such file or directory
+bash: /c/opt/domains/sormas/sormas.properties: No such file or directory
+bash: /c/opt/domains/sormas/sormas.properties: No such file or directory
+Set property rscript.executable in sormas.properties to: C:\Program Files\R\R-4.0.0\bin\Rscript.exe
+Setup of R completed.
